@@ -1,4 +1,8 @@
-//implementation of the pseudocode from the book introduction to algorithms and data structures.
+/**
+ * This function applies insertion sort algorithm on an array, returning a sorted array. An implementation of the pseudocode from the book introduction to algorithms and data structures.
+ * @param A the array to sort
+ * @returns the sorted array
+ */
 function insertionSort(A: number[]) {
     console.log(A);
     for(let j = 1; j<A.length; j++){
