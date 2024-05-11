@@ -5,9 +5,13 @@
  */
 function insertionSort(A: number[]) {
     console.log(A);
+    //loop through the array starting at 1
     for(let j = 1; j<A.length; j++){
+        //store the 1th item as a key
         let key: number = A[j];
+        //set the i variable to the previous index of the key
         let i = j - 1;
+        //loop through comparing the key and the current value, swapping the values as and when.
         while(i>=0 && A[i] > key){
           A[i + 1] = A[i];
           i--;
